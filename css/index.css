@@ -1,0 +1,117 @@
+.home .color-block {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-15deg);
+  left: -83%;
+  top: -50%;
+  background-color: #ffb400;
+}
+
+.home .bgimg {
+  position: fixed;
+  background-image: url(../img/WhatsApp\ Image\ 2023-11-28\ at\ 3.09.46\ AM.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: calc(100vh - 80px);
+  width: 33.35%;
+  z-index: 11;
+  border-radius: 30px;
+  left: 40px;
+  top: 40px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+
+.content {
+  max-width: 550px;
+  position: fixed;
+  z-index: 1;
+  right: 200px;
+  top: 160px;
+}
+
+.content h1 {
+  font-size: 51px;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: poppins, sans-serif;
+  color: #ffb400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.content h1 span {
+  color: #fff;
+  display: block;
+  text-align: right;
+}
+.content p {
+  margin: 0 18px 0 28px;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: Open Sans, sans-serif;
+  display: block;
+  text-align: right;
+  text-indent: 10px;
+}
+
+.button {
+  overflow: hidden;
+  display: inline-block;
+  line-height: 1.4;
+  border-radius: 35px;
+
+  user-select: none;
+  transition: 0.25s ease-in-out;
+  text-transform: uppercase;
+
+  position: relative;
+  left: 300px;
+  top: 30px;
+
+  z-index: 1;
+  padding: 16px 70px 16px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+
+  cursor: pointer;
+
+  border: 2px solid #ffb400;
+}
+.button:hover {
+  background-color: #ffb400;
+}
+.bticon {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  bottom: 0;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #ffb400;
+}
+.bttext {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-family: sans-serif;
+}
+.line {
+  border: 3px solid #ffb400;
+  width: 37px;
+  border-radius: 5px;
+  position: absolute;
+  right: -63px;
+  top: 64px;
+  opacity: 0.9;
+}

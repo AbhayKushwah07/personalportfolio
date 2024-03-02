@@ -1,0 +1,98 @@
+.ifield input {
+  border: 1px solid #111;
+  margin-bottom: 30px;
+  background: #252525;
+  color: #fff;
+  padding: 15px 26px;
+  border-radius: 30px;
+  text-align: right;
+  font-weight: 500;
+}
+#textarea {
+  border: 1px solid #111;
+  margin-bottom: 30px;
+  background: #252525;
+  color: #fff;
+  padding: 15px 26px;
+  border-radius: 30px;
+  text-align: right;
+  font-weight: 500;
+  width: 100%;
+  height: 160px;
+  text-align: right;
+  font-size: 14 px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.button {
+  overflow: hidden;
+  display: inline-block;
+  line-height: 1.4;
+  border-radius: 35px;
+  position: absolute;
+
+
+  transition: 0.25s ease-in-out;
+  text-transform: uppercase;
+
+  left: 490px;
+bottom: 0px;
+
+  z-index: 1;
+  padding: 16px 70px 16px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+
+  cursor: pointer;
+
+  border: 2px solid #ffb400;
+}
+.button:hover {
+  background-color: #ffb400;
+}
+.bticon {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  bottom: 0;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #ffb400;
+}
+.bttext {
+  display: block;
+    width: 121px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-family: sans-serif;
+  opacity: 0.9;
+}
+
+ul li a {
+  background: #252525;
+  padding: 11px 12px 11px 12px;
+  border-radius: 80%;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width:1024px)
+{
+#textarea
+{
+  margin-bottom: 81px;
+}
+.button
+{
+  left: 272px;
+  bottom: 10px;
+}
+}
